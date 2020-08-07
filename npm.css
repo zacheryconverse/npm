@@ -1,0 +1,11 @@
+.main {
+  background: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+#letters {
+  color: white;
+  border-color: white;
+  border: 5vw;
+}
