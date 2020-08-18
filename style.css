@@ -1,0 +1,111 @@
+/* .main {
+  background: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+#letters {
+  color: white;
+  border-color: white;
+  border: 5vw;
+} */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  background-color: white;
+}
+#bigRed {
+  grid-column-start: 2;
+  grid-column-end: 16;
+  grid-row-start: 5;
+  grid-row-end: 11;
+  background-color: #c31f1fde;
+}
+#lilWht {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 10;
+  background-color: white;
+}
+#wht1 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  background-color: white;
+}
+#wht2 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  background-color: white;
+}
+#wht3 {
+  grid-column-start: 11;
+  grid-column-end: 15;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  background-color: white;
+}
+#lilRed1 {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 11;
+  grid-row-end: 11;
+  background-color: #c31f1fde;
+}
